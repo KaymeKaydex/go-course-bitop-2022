@@ -1,0 +1,309 @@
+{
+  "info": {
+    "_postman_id": "57f3e88b-ecc7-465c-9072-ac6edb067651",
+    "name": "habr",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Vacancies",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "Cookie",
+            "value": "habr_web_home_feed=/all/; _ga=GA1.2.312163012.1648386829; _gid=GA1.2.1426574413.1648386829; _ym_isad=2; _ym_d=1648386827; _ym_uid=1648386827286236829; fl=ru; hl=ru"
+          },
+          {
+            "key": "Referer",
+            "value": "https://habr.com/ru/all/"
+          },
+          {
+            "key": "Accept-Language",
+            "value": "ru"
+          },
+          {
+            "key": "Host",
+            "value": "habr.com"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15"
+          },
+          {
+            "key": "Accept-Encoding",
+            "value": "gzip, deflate, br"
+          },
+          {
+            "key": "Connection",
+            "value": "keep-alive"
+          },
+          {
+            "key": "x-app-version",
+            "value": "2.68.0"
+          }
+        ],
+        "url": {
+          "raw": "https://habr.com/kek/v2/inset/vacancies?hubs=hosting%2Cpay_system%2Cs_admin%2Cbilling%2Cbrowsers%2Cprogramming%2Creactjs%2Cpopular_science%2Castronomy%2Cpostgresql&tags=vps%2Fvds%2C%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%2Cswift%2Cvisa%2Cmastercard%2C%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B2%D0%BF%D1%81%2CBitB%2C%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%20%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0%2CURL%2C%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B&companyAlias=&hl=ru",
+          "protocol": "https",
+          "host": [
+            "habr",
+            "com"
+          ],
+          "path": [
+            "kek",
+            "v2",
+            "inset",
+            "vacancies"
+          ],
+          "query": [
+            {
+              "key": "hubs",
+              "value": "hosting%2Cpay_system%2Cs_admin%2Cbilling%2Cbrowsers%2Cprogramming%2Creactjs%2Cpopular_science%2Castronomy%2Cpostgresql"
+            },
+            {
+              "key": "tags",
+              "value": "vps%2Fvds%2C%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%2Cswift%2Cvisa%2Cmastercard%2C%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B2%D0%BF%D1%81%2CBitB%2C%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%20%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0%2CURL%2C%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B"
+            },
+            {
+              "key": "companyAlias",
+              "value": ""
+            },
+            {
+              "key": "hl",
+              "value": "ru"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Courses",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "Cookie",
+            "value": "habr_web_home_feed=/all/; _ga=GA1.2.312163012.1648386829; _gid=GA1.2.1426574413.1648386829; _ym_isad=2; _ym_d=1648386827; _ym_uid=1648386827286236829; fl=ru; hl=ru"
+          },
+          {
+            "key": "Referer",
+            "value": "https://habr.com/ru/all/"
+          },
+          {
+            "key": "Accept-Language",
+            "value": "ru"
+          },
+          {
+            "key": "Host",
+            "value": "habr.com"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15"
+          },
+          {
+            "key": "Accept-Encoding",
+            "value": "gzip, deflate, br"
+          },
+          {
+            "key": "Connection",
+            "value": "keep-alive"
+          },
+          {
+            "key": "x-app-version",
+            "value": "2.68.0"
+          }
+        ],
+        "url": {
+          "raw": "https://habr.com/kek/v2/inset/courses?hubs=hosting%2Cpay_system%2Cs_admin%2Cbilling%2Cbrowsers%2Cprogramming%2Creactjs%2Cpopular_science%2Castronomy%2Cpostgresql&tags=vps%2Fvds%2C%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%2Cswift%2Cvisa%2Cmastercard%2C%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B2%D0%BF%D1%81%2CBitB%2C%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%20%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0%2CURL%2C%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B&hl=ru",
+          "protocol": "https",
+          "host": [
+            "habr",
+            "com"
+          ],
+          "path": [
+            "kek",
+            "v2",
+            "inset",
+            "courses"
+          ],
+          "query": [
+            {
+              "key": "hubs",
+              "value": "hosting%2Cpay_system%2Cs_admin%2Cbilling%2Cbrowsers%2Cprogramming%2Creactjs%2Cpopular_science%2Castronomy%2Cpostgresql"
+            },
+            {
+              "key": "tags",
+              "value": "vps%2Fvds%2C%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%2Cswift%2Cvisa%2Cmastercard%2C%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B2%D0%BF%D1%81%2CBitB%2C%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%20%D0%B2%D0%BD%D1%83%D1%82%D1%80%D0%B8%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D0%B0%2CURL%2C%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B"
+            },
+            {
+              "key": "hl",
+              "value": "ru"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Context",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "Cookie",
+            "value": "habr_web_home_feed=/all/; _ga=GA1.2.312163012.1648386829; _gid=GA1.2.1426574413.1648386829; _ym_isad=2; _ym_d=1648386827; _ym_uid=1648386827286236829; fl=ru; hl=ru"
+          },
+          {
+            "key": "Referer",
+            "value": "https://habr.com/ru/all/"
+          },
+          {
+            "key": "Accept-Language",
+            "value": "ru"
+          },
+          {
+            "key": "Host",
+            "value": "habr.com"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15"
+          },
+          {
+            "key": "Accept-Encoding",
+            "value": "gzip, deflate, br"
+          },
+          {
+            "key": "Connection",
+            "value": "keep-alive"
+          },
+          {
+            "key": "x-app-version",
+            "value": "2.68.0"
+          }
+        ],
+        "url": {
+          "raw": "https://habr.com/kek/v2/news/context?fl=ru&hl=ru&extend_context=false&per_page=5&page_num=1",
+          "protocol": "https",
+          "host": [
+            "habr",
+            "com"
+          ],
+          "path": [
+            "kek",
+            "v2",
+            "news",
+            "context"
+          ],
+          "query": [
+            {
+              "key": "fl",
+              "value": "ru"
+            },
+            {
+              "key": "hl",
+              "value": "ru"
+            },
+            {
+              "key": "extend_context",
+              "value": "false"
+            },
+            {
+              "key": "per_page",
+              "value": "5"
+            },
+            {
+              "key": "page_num",
+              "value": "1"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Questions",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json, text/plain, */*"
+          },
+          {
+            "key": "Cookie",
+            "value": "habr_web_home_feed=/all/; _ga=GA1.2.312163012.1648386829; _gid=GA1.2.1426574413.1648386829; _ym_isad=2; _ym_d=1648386827; _ym_uid=1648386827286236829; fl=ru; hl=ru"
+          },
+          {
+            "key": "Referer",
+            "value": "https://habr.com/ru/all/"
+          },
+          {
+            "key": "Accept-Language",
+            "value": "ru"
+          },
+          {
+            "key": "Host",
+            "value": "habr.com"
+          },
+          {
+            "key": "User-Agent",
+            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15"
+          },
+          {
+            "key": "Accept-Encoding",
+            "value": "gzip, deflate, br"
+          },
+          {
+            "key": "Connection",
+            "value": "keep-alive"
+          },
+          {
+            "key": "x-app-version",
+            "value": "2.68.0"
+          }
+        ],
+        "url": {
+          "raw": "https://habr.com/kek/v2/inset/questions?tags=vps%2Fvds%2C%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%2Cswift%2Cvisa%2Cmastercard&hl=ru",
+          "protocol": "https",
+          "host": [
+            "habr",
+            "com"
+          ],
+          "path": [
+            "kek",
+            "v2",
+            "inset",
+            "questions"
+          ],
+          "query": [
+            {
+              "key": "tags",
+              "value": "vps%2Fvds%2C%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%2Cswift%2Cvisa%2Cmastercard"
+            },
+            {
+              "key": "hl",
+              "value": "ru"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
